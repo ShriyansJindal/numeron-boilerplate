@@ -9,9 +9,8 @@ let num1;
 let num2;
 
 function generateRandom(){
-
-     num1 = Math.round(Math.random()*100)
-     num2 = Math.round(Math.random()*100)
+    num1 = Math.round(Math.random()*100)
+    num2 = Math.round(Math.random()*100)
     
     n1.innerText = num1
     n2.innerText = num2
@@ -45,11 +44,7 @@ equal.onclick = ()=>{
         // localStorage.setItem("score",score);
         generateRandom();
     }
-    // let newRandomNumber = Math.round(Math.random()*100)
-    // let newRandomNumber2 = Math.round(Math.random()*100)
-    // n1.innerText = newRandomNumber
-    // n2.innerText = newRandomNumber2
-    
+   
 
 }
 lesser.onclick = ()=>{
